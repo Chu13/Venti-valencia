@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(layouts);
 
 const index = require('./routes/index');
-app.use('/', index);
+app.use(index);
 
 const productos = require ('./routes/productos');
 app.use('/', productos);
