@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="nav-bar">
+      <a href="/"><h1 id="titulo"> Distrubuidora Venti Valencia C.A.</h1></a>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="/productos"> Productos </a>
+        <a href="#"> Quienes Somos </a>
+        <a href="#"> Contacto </a>
+      </nav>
+    </header>
+
+    <%- body %>
+
+    <footer>
+      <div class="footer-left footer">
+        <div class="ventival">
+          <img src="images/venti-logo.png" />
+          <span> Valencia, Venezuela</span>
+        </div>
+      </div>
+      <div class="footer-center footer">
+        <div class="telefono">
+          <img src="images/phone-icon.png" class="icon" />
+          <span>+58 555 555-5555</span>
+          <span>+58 555 555-5555</span>
+        </div>
+      </div>
+      <div class="footer-right footer">
+        <h3>Contactenos:</h3>
+        <div class="right-data">
+          <img src="images/mail-icon.png" class="icon"/>
+          <span> ventivalencia@gmail.com</span>
+        </div>
+        <div class="right-data right-align">
+          <img src="images/clock-icon.png" class="icon"/>
+          <span> Lun - Vie 08:00 - 17:00 (-4GMT)</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
