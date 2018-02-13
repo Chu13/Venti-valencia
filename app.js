@@ -32,6 +32,9 @@ app.use(index);
 const productos = require ('./routes/productos');
 app.use('/', productos);
 
+const contacto = require ('./routes/contacto');
+app.use(contacto);
+
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
   const err = new Error('Not Found');
